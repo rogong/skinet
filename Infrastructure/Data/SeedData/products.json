@@ -1,6 +1,6 @@
 [
   {
-    "Name": "Sailf NE3 Smartphone 6.55 Inches 8GB, 128GB ROM Android (16MP + 32MP)-blue",
+    "Name": "Sailf NE3 Smartphone ",
     "Description": "Sailf NE3 Smartphone 6.55 Inches 8GB, 128GB ROM Android (16MP + 32MP)-blue.",
     "Price": 200,
     "PictureUrl": "images/products/1.jpg",
@@ -8,7 +8,7 @@
     "ProductBrandId": 1
   },
   {
-    "Name": "Apple IPhone 6 -(64GB ROM, 1GB) -8 MP - 4.7 Inch+4G Network +Fingerprint Refurbished Smartphone - Gold",
+    "Name": "Apple IPhone 6",
     "Description": "Apple IPhone 6 -(64GB ROM, 1GB) -8 MP - 4.7 Inch+4G Network +Fingerprint Refurbished Smartphone - Gold",
     "Price": 150,
     "PictureUrl": "images/products/2.jpg",
@@ -16,7 +16,7 @@
     "ProductBrandId": 1
   },
   {
-    "Name": "Samsung Galaxy A51 6.5-Inch (4GB,128GB ROM) Android10.0, (48MP +12MP + 5MP + 5MP) + 32MP Dual SIM - Prism Crush Black",
+    "Name": "Samsung Galaxy A51 6.5-Inch ",
     "Description": "Samsung Galaxy A51 6.5-Inch (4GB,128GB ROM) Android10.0, (48MP +12MP + 5MP + 5MP) + 32MP Dual SIM - Prism Crush Black.",
     "Price": 180,
     "PictureUrl": "images/products/3.jpg",
@@ -24,7 +24,7 @@
     "ProductBrandId": 2
   },
   {
-    "Name": "Apple IPhone 6 4.7 Inch 1GB + 32GB 8MP + 1.2MP Finger Sensor 4G LTE Smartphone (Free Gift) – Grey",
+    "Name": "Apple IPhone 6 4.7",
     "Description": "Apple IPhone 6 4.7 Inch 1GB + 32GB 8MP + 1.2MP Finger Sensor 4G LTE Smartphone (Free Gift) – Grey.",
     "Price": 300,
     "PictureUrl": "images/products/4.jpg",
@@ -32,7 +32,7 @@
     "ProductBrandId": 2
   },
   {
-    "Name": "Samsung Galaxy S9 Plus S9 Plus (6GB RAM, 64GB ROM) Android 8.0 Oreo, 12MP + 8MP Single Sim- 4G- Midnight Black",
+    "Name": "Samsung Galaxy S9 Plus",
     "Description": "Samsung Galaxy S9 Plus S9 Plus (6GB RAM, 64GB ROM) Android 8.0 Oreo, 12MP + 8MP Single Sim- 4G- Midnight Black",
     "Price": 250,
     "PictureUrl": "images/products/5.jpg",
@@ -40,7 +40,7 @@
     "ProductBrandId": 4
   },
   {
-    "Name": "Apple IPhone 4s 3.5Inch -16GB ROM+512MB RAM-8MP-Black(Gift：accessories)(Refurbished)",
+    "Name": "Apple IPhone 4s 3.5Inch ",
     "Description": "Apple IPhone 4s 3.5Inch -16GB ROM+512MB RAM-8MP-Black(Gift：accessories)(Refurbished)",
     "Price": 12000,
     "PictureUrl": "images/products/6.jpg",
@@ -48,7 +48,7 @@
     "ProductBrandId": 5
   },
   {
-    "Name": "Apple IPhone X 5.8-Inches Super AMOLED (3GB RAM, 64GB ROM)IOS 11(12MP+12MP)+7MP 4G LTE Smartphone-Silver",
+    "Name": "Apple IPhone X 5.8-Inches",
     "Description": "Apple IPhone X 5.8-Inches Super AMOLED (3GB RAM, 64GB ROM)IOS 11(12MP+12MP)+7MP 4G LTE Smartphone-Silver.",
     "Price": 10,
     "PictureUrl": "images/products/7.jpg",
@@ -56,7 +56,7 @@
     "ProductBrandId": 2
   },
   {
-    "Name": "Apple IPhone 8P 5.5-Inch Fingerprint Sensor HD (3GB,64GB ROM) IOS 11, 12MP + 7MP 4G Smartphone -Gold",
+    "Name": "Apple IPhone 8P 5.5-Inch ",
     "Description": "Apple IPhone 8P 5.5-Inch Fingerprint Sensor HD (3GB,64GB ROM) IOS 11, 12MP + 7MP 4G Smartphone -Gold.",
     "Price": 8,
     "PictureUrl": "images/products/8.jpg",
@@ -64,7 +64,7 @@
     "ProductBrandId": 4
   },
   {
-    "Name": "Tecno Spark 4 (KC8) 6.52 HD+ 2GB RAM + 32GB ROM, 13MP",
+    "Name": "Tecno Spark 4",
     "Description": "Tecno Spark 4 (KC8) 6.52 HD+ 2GB RAM + 32GB ROM, 13MP Triple AI Camera, Android 9, 4G, 4000mAh, Fingerprint & Face ID- Purple.",
     "Price": 15,
     "PictureUrl": "images/products/9.jpg",
@@ -72,7 +72,7 @@
     "ProductBrandId": 4
   },
   {
-    "Name": "Blue Code Gloves",
+    "Name": "Tecno Spark 5",
     "Description": "Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.",
     "Price": 180000,
     "PictureUrl": "images/products/10.jpg",
@@ -80,7 +80,7 @@
     "ProductBrandId": 3
   },
   {
-    "Name": "Oukitel C17 Pro 6.35-inch Android 9.0 With Back Case,(4GB RAM 64GB ROM)Cortex A53 2.0GHz Triple Rear Cameras 4G Smartphone-BLACK",
+    "Name": "Oukitel C17 Pro ",
     "Description": "Oukitel C17 Pro 6.35-inch Android 9.0 With Back Case,(4GB RAM 64GB ROM)Cortex A53 2.0GHz Triple Rear Cameras 4G Smartphone-BLACK.",
     "Price": 150000,
     "PictureUrl": "images/products/11.jpg",
@@ -88,7 +88,7 @@
     "ProductBrandId": 3
   },
   {
-    "Name": "Purple React Gloves",
+    "Name": "Tecno Spark 6",
     "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa.",
     "Price": 16,
     "PictureUrl": "images/products/12.jpg",

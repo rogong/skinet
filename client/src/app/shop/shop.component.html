@@ -1,9 +1,10 @@
 <div class="row">
   <div class="col-md-3">
-    <div class="banner mb-5">
-      <section class=""></section>
-    </div>
-    <section>
+    
+    <section *ngIf="brands && types">
+      <div class="banner mb-3 mt-2">
+          <app-left-banner></app-left-banner>     
+      </div>
       <h5 class="text-warning ml-3">Sort</h5>
       <select
         class="custom-select mb-3"
@@ -42,15 +43,9 @@
   </div>
 
   <div class="col-md-9">
-    <div class="banner mb-3">
-      <section class="">
-        <img
-          src="/assets/images/banner_wide.png"
-          alt="banner"
-          class="img-fluid"
-        />
-      </section>
-    </div>
+   <ng-container *ngIf="products">
+    <app-ad></app-ad>
+  
     <div class="d-flex justify-content-between align-items-center pb-2">
       <app-paging-header
         [totalCount]="totalCount"
@@ -61,18 +56,14 @@
 
       <div class="form-inline">
         <input
-        (keyup.enter)="onSearch()"
+          (keyup.enter)="onSearch()"
           class="form-control mr-2"
           #search
           style="width: 300px;"
           placeholder="Search"
           type="text"
         />
-        <button
-          
-          (click)="onSearch()"
-          class="btn btn-outline-primary my-2"
-        >
+        <button (click)="onSearch()" class="btn btn-outline-primary my-2">
           Search
         </button>
         <button (click)="onReset()" class="btn btn-outline-success ml-2 my-2">
@@ -80,7 +71,7 @@
         </button>
       </div>
     </div>
-    <section>
+   
       <div class="album py-2 bg-light">
         <div class="container">
           <div class="row">
@@ -98,6 +89,7 @@
           </div>
         </div>
       </div>
-    </section>
+ 
+  </ng-container>
   </div>
 </div>

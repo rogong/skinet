@@ -10,8 +10,8 @@ namespace API.Extensions
         {
             services.AddSwaggerGen(s =>
             {
-                s.SwaggerDoc("v1", new OpenApiInfo { Title = "Ecommerce API", Version = "v1" });
-                var securitySchema =  new OpenApiSecurityScheme
+                s.SwaggerDoc("v1", new OpenApiInfo { Title = "Rogo Ecommerce API", Version = "v1" });
+                var securitySchema = new OpenApiSecurityScheme
                 {
                     Description = "JWT authentication scheme",
                     Name = "Authorization",
@@ -20,12 +20,12 @@ namespace API.Extensions
                     Scheme = "bearer",
                     Reference = new OpenApiReference
                     {
-                        Type  = ReferenceType.SecurityScheme,
+                        Type = ReferenceType.SecurityScheme,
                         Id = "Bearer"
                     }
                 };
                 s.AddSecurityDefinition("Bearer", securitySchema);
-                var securityRequirement = new OpenApiSecurityRequirement { 
+                var securityRequirement = new OpenApiSecurityRequirement {
                     {securitySchema, new[] { "Bearer"}}};
                 s.AddSecurityRequirement(securityRequirement);
             });
@@ -38,7 +38,7 @@ namespace API.Extensions
             app.UseSwagger();
             app.UseSwaggerUI(s =>
             {
-                s.SwaggerEndpoint("/swagger/v1/swagger.json", "Ecommerce API v1");
+                s.SwaggerEndpoint("/swagger/v1/swagger.json", "Rogo Ecommerce API v1");
             });
             return app;
         }

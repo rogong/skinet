@@ -6,6 +6,7 @@ import { PagingHeaderComponent } from './components/paging-header/paging-header.
 import { PagerComponent } from './components/pager/pager.component';
 import { LeftBannerComponent } from './left-banner/left-banner.component';
 import { AdComponent } from './ad/ad.component';
+import { OrderTotalsComponent } from './components/order-totals/order-totals.component';
 
 @NgModule({
   declarations: [
@@ -13,6 +14,7 @@ import { AdComponent } from './ad/ad.component';
     PagerComponent,
     LeftBannerComponent,
     AdComponent,
+    OrderTotalsComponent,
   ],
   imports: [CommonModule, PaginationModule.forRoot(), CarouselModule.forRoot()],
   exports: [
@@ -22,6 +24,7 @@ import { AdComponent } from './ad/ad.component';
     PagerComponent,
     LeftBannerComponent,
     AdComponent,
+    OrderTotalsComponent
   ],
 })
 export class SharedModule {}

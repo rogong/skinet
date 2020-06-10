@@ -88,7 +88,7 @@ namespace API.Controllers
 
             var result = await _signInManager.CheckPasswordSignInAsync(user, loginDto.Password, false);
 
-            if (result.Succeeded) Unauthorized(new APIResponse(401));
+            if (!result.Succeeded) return Unauthorized(new APIResponse(401));
 
             return new UserDto
             {
